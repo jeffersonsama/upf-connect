@@ -1,0 +1,210 @@
+﻿UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   1  
+HACKATHON û INNOVATION 
+NUM╔RIQUE  
+Mini RÚseau Social AcadÚmique  
+CAHIER DES CHARGES FONCTIONNEL  
+Organisateur  UPF University û Institut SupÚrieur des Sciences de l'IngÚnieur  
+Type d'ÚvÚnement  Hackathon acadÚmique interne  
+ThÞme  Mini RÚseau Social AcadÚmique  
+DurÚe  6 semaines (phases : Lancement, Conception, DÚveloppement, 
+Finalisation)  
+Participants  ╔tudiants de la facultÚ û Úquipes de 4 Útudiants  
+Objectif  Concevoir et prototyper une plateforme numÚrique acadÚmique  
+Livrables  Prototype fonctionnel  + PrÚsentation + DÚmonstration  
+RÚcompenses  Prix & Attestations  
+   
+
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   2 1. Contexte et objectifs du hackathon  
+L'UPF University  organise un hackathon interne dÚdiÚ Ó l'innovation numÚrique dans le domaine 
+acadÚmique. L'objectif est d'inciter les Útudiants Ó concevoir et prototyper une plateforme de 
+rÚseau social acadÚmique adaptÚe Ó la vie estudiantine.  
+Ce cahier des charges dÚfin it le pÚrimÞtre fonctionnel minimal que chaque Úquipe devra couvrir 
+dans sa solution. Il ne prescrit aucune technologie, aucun langage, ni aucun type de plateforme 
+(application web, mobile, bot Discord, CLI, etc.). Chaque Úquipe reste entiÞrement libre dan s 
+ses choix techniques et d'interface, et est encouragÚe Ó aller au -delÓ du minimum pour enrichir 
+son MVP.  
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   3 2. Organisation et participants  
+2.1 Composition des Úquipes  
+Chaque Úquipe est constituÚe de 4 Útudiants de la facultÚ. La constitution des Úquipes est libre 
+ou peut Ûtre organisÚe par les encadrants. Chaque Úquipe dÚsigne un chef de projet 
+responsable de la coordination et des livrables.  
+2.2 Calendrier des 6 semaines  
+Phase  Semaine(s)  ActivitÚs principales  
+1 û Lancement  S1 PrÚsentation du sujet, formation des Úquipes, 
+comprÚhension du cahier des charges, choix 
+technologiques, mise en place de l'environnement de 
+travail.  
+2 û Conception  S2 RÚdaction des user stories, rÚalisation des maquettes 
+(wireframes / mockups), modÚlisation de la base de 
+donnÚes ou de la structure de donnÚes, architecture 
+globale de la solution.  
+3û4 û 
+DÚveloppement  S3 û S4 ImplÚmentation des fonctionnalitÚs minimales obligatoires 
+: authentification, profil Útudiant, accÞs aux cours, partage 
+d'Úpreuves, messagerie / groupe s. 
+5û6 û 
+Finalisation  S5 û S6 IntÚgration et tests, correction des bugs, enrichissement 
+du MVP (fonctionnalitÚs supplÚmentaires), prÚparation de 
+la prÚsentation et de la dÚmonstration finale.  
+ 
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   4 3. FonctionnalitÚs minimales obligatoire s 
+Les quatre foncti onnalitÚs suivantes constituent le noyau dur du MVP. Chaque Úquipe doit les 
+implÚmenter dans sa solution, quelle que soit la technologie ou la plateforme choisie. Leur 
+niveau de finition et d'ergonomie sont laissÚs Ó l'apprÚciation de l'Úquipe.  
+3.1 AccÞs aux cours  
+L'application doit permettre aux Útudiants de consulter et d'accÚder aux ressources 
+pÚdagogiques de leurs cours. Cette fonctionnalitÚ comprend au minimum les ÚlÚments suivants 
+: 
+ò Listing des cours disponibles avec les informations de base (titre, matiÞre, enseignant, 
+semestre/filiÞre).  
+ò Consultation du dÚtail d'un cours : description, contenu ou programme, ressources 
+associÚes (documents, liens, fichiers).  
+ò SystÞme de catÚgorisation ou de filtrage des cours par matiÞre, filiÞre, niveau ou tout 
+autre critÞre pertinent.  
+ò AccÞs restreint : seuls les Útudiants authentifiÚs peuvent consulter les cours qui les 
+concernent.  
+FonctionnalitÚs recommandÚes (non obligatoires) :  
+û Recherche plein texte sur les cours.  
+û TÚlÚchargement de fichiers de cours.  
+û Notation ou co mmentaire des cours par les Útudiants.  
+û Notifications lors de l'ajout de nouveaux cours ou ressources.  
+3.2 Partage d'Úpreuves  
+L'application doit offrir un espace collaboratif permettant aux Útudiants de partager des Úpreuves 
+passÚes (examens, QCM, travaux p ratiques, sujets de projets, etc.) afin de faciliter la rÚvision 
+collective. Le minimum attendu est :  
+ò DÚp¶t d'une Úpreuve : formulaire permettant d'uploader ou de saisir une Úpreuve avec 
+ses mÚtadonnÚes (titre, matiÞre, annÚe, type d'Úpreuve, auteur).  
+ò Consultation et tÚlÚchargement des Úpreuves partagÚes par les autres Útudiants.  
+ò Organisation des Úpreuves par matiÞre, filiÞre, annÚe ou type.  
+ò ModÚration minimale : signalement d'un contenu inappropriÚ ou erronÚ.  
+FonctionnalitÚs recommandÚes (non obligatoi res) :  
+û SystÞme de vote / like sur les Úpreuves les plus utiles.  
+û Commentaires et corrections collaboratives sur les Úpreuves.  
+û Recherche par mots -clÚs. 
+û Gestion des doublons pour Úviter les Úpreuves dupliquÚes.  
+3.3 Profils Útudiants  
+Chaque utilisateur de la p lateforme doit disposer d'un profil personnel visible par les autres 
+membres. Ce profil constitue l'identitÚ numÚrique de l'Útudiant au sein de la communautÚ. Le 
+minimum attendu est :  
+ò CrÚation de compte et authentification sÚcurisÚe (email/mot de passe ou tout autre 
+mÚcanisme Úquivalent).  
+ò Profil consultable comportant : photo de profil, nom et prÚnom, filiÞre/spÚcialisation, 
+annÚe d'Útudes, courte biographie ou description.  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   5 ò Modification du profil par son propriÚtaire.  
+ò Affichage de l'activitÚ publique de l'Útudiant sur la plateforme (cours suivis, Úpreuves 
+partagÚes, groupes rejoints, etc.).  
+FonctionnalitÚs recommandÚes (non obligatoires) :  
+û SystÞme de connexion / suivi entre Útudiants (type ½ follower / following ╗).  
+û Mise en avant des compÚtences ou projet s de l'Útudiant.  
+û Messagerie privÚe accessible depuis le profil.  
+û Badges ou indicateurs de contribution Ó la communautÚ.  
+3.4 Chats & Groupes  
+L'application doit intÚgrer un systÞme de communication permettant aux Útudiants d'Úchanger 
+entre eux, de maniÞre ind ividuelle ou collective. Le minimum attendu est :  
+ò Messagerie de groupe : crÚation d'un groupe autour d'une matiÞre, d'un projet ou d'un 
+intÚrÛt commun.  
+ò Envoi et rÚception de messages textuels au sein d'un groupe.  
+ò Gestion des membres d'un groupe : rejoindre , quitter, voir la liste des membres.  
+ò Distinction entre groupes publics (ouverts Ó tous) et groupes privÚs (sur invitation).  
+FonctionnalitÚs recommandÚes (non obligatoires) :  
+û Messagerie privÚe (1 -to-1) entre deux Útudiants.  
+û Partage de fichiers ou d'images dans les messages.  
+û Notifications en temps rÚel (push ou in -app). 
+û Historique des messages et recherche dans les conversations.  
+û RÚactions / emojis sur les messages.  
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   6 4. LibertÚ technologique et choix de plateforme  
+Aucune technologie, aucun framework ni aucu n type d'interface n'est imposÚ. Les Úquipes sont 
+libres de choisir l'environnement qui leur correspond le mieux, du moment que les 
+fonctionnalitÚs minimales sont couvertes. Voici quelques exemples non exhaustifs de 
+plateformes acceptÚes :  
+ò Application web (SPA, MPA, SSR, etc.) : React, Vue, Angular, Next.js, Django, Laravel, 
+Rails, etc.  
+ò Application mobile native ou hybride : Android (Java/Kotlin), iOS (Swift), Flutter, React 
+Native, Expo, etc.  
+ò Bot / application Discord : Discord.js, discord.py, intÚgrant de s commandes slash, des 
+modales et des channels dÚdiÚs.  
+ò Application de bureau : Electron, Tauri, etc.  
+ò Combinaison multi -plateforme : ex. API backend + frontend web + bot Discord.  
+Le choix de la base de donnÚes (SQL, NoSQL, temps rÚel, etc.), de l'hÚbergement (local, cloud, 
+service gratuit) et de l'architecture (monolithique, micro -services, serverless) est Úgalement 
+libre.  
+Ce qui compte avant tout : la couverture fonctionnelle, la qualitÚ de l'expÚrience utilisateur et la 
+soliditÚ technique du MVP prÚsentÚ lors de la dÚmonstration finale.  
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   7 5. Livrables attendus  
+Chaque Úquipe devra remettre et prÚsenter les trois livrables suivants Ó la fin des 6 semaines :  
+5.1 Prototype fonctionnel  
+ò Le code source complet de l'application, hÚbergÚ sur un dÚp¶t Git (GitHub, GitLab, 
+Bitbucket ou Úquivalent).  
+ò Un fichier README dÚtaillant : les prÚrequis, les Útapes d'installation et de lancement, 
+les fonctionnalitÚs implÚmentÚes et les Úventuelles limites connues.  
+ò Un environnement de dÚmonstration opÚrationnel (application dÚployÚe, instance locale 
+documentÚe, ou tout autre accÞs permettant de tester le MVP en direct).  
+5.2 PrÚsentation  
+ò Support de prÚsentation (slides, vidÚo, ou tout autre format) d' une durÚe approximative 
+de 10 Ó 15 minutes.  
+ò La prÚsentation doit couvrir : le problÞme ciblÚ et la vision du produit, l'architecture 
+technique choisie, le parcours utilisateur (user flow), les fonctionnalitÚs rÚalisÚes versus 
+celles envisagÚes, et les ense ignements tirÚs pendant le dÚveloppement.  
+5.3 DÚmonstration  
+ò DÚmonstration live du MVP devant le jury, couvrant obligatoirement les 4 fonctionnalitÚs 
+minimales.  
+ò Questions -rÚponses avec le jury sur les choix techniques et fonctionnels.  
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   8 6. CritÞres d'Úvalua tion 
+CritÞre  Description  PondÚration  
+Couverture fonctionnelle  Les 4 fonctionnalitÚs minimales 
+sont-elles toutes prÚsentes et 
+fonctionnelles ?  30 % 
+QualitÚ technique  Architecture, lisibilitÚ du code, 
+absence de bugs bloquants, 
+sÚcuritÚ de base.  25 % 
+ExpÚrience utilisateur  FluiditÚ, intuitivitÚ de l'interface et 
+de la navigation.  20 % 
+Innovation & enrichissement  FonctionnalitÚs supplÚmentaires, 
+originalitÚ, valeur ajoutÚe au -delÓ 
+du minimum.  15 % 
+PrÚsentation & dÚmonstration  ClartÚ, structuration, qu alitÚ de la 
+dÚmonstration live.  10 % 
+ 
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   9 7. RÞgles de participation  
+ò Toutes les solutions doivent Ûtre dÚveloppÚes pendant les 6 semaines du hackathon. 
+L'utilisation de frameworks  open source, de bibliothÞques tierces et d'outils de 
+gÚnÚration de code (IA, gÚnÚrateurs de maquettes, etc.) est autorisÚe.  
+ò Le code produit doit Ûtre original : il est interdit de soumettre un projet existant ou de 
+reprendre intÚgralement un projet open s ource sans transformation substantielle.  
+ò Chaque membre de l'Úquipe doit avoir contribuÚ au projet. Le jury peut poser des 
+questions Ó n'importe quel membre lors de la dÚmonstration.  
+ò Les donnÚes personnelles utilisÚes dans les dÚmos (photos, noms, etc.) doi vent Ûtre 
+fictives ou consenties.  
+ò Toute tentative de plagiat entra¯ne la disqualification immÚdiate de l'Úquipe.  
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   10 8. RÚcompenses  
+Les Úquipes gagnantes et distinguÚes recevront :  
+ò Des prix (nature et valeur annoncÚs lors de la cÚrÚmonie de lancement).  
+ò Des attestations de participation et/ou de rÚussite, valorisables dans le parcours 
+acadÚmique et professionnel de chaque membre.  
+Participer Ó ce hackathon, c'est aussi l'occasion de valoriser ses compÚtences, de travailler en 
+Úquipe, de gagner en expÚrience co ncrÞte de dÚveloppement produit, et de s'imposer dans la 
+vie de la facultÚ.  
+  
+UPF University û Institut  SupÚrieur des Sciences de l'IngÚnieur
+   11 9. Contact et support  
+Pour toute question relative au cahier des charges, aux rÞgles ou au calendrier, les Úquipes 
+sont invitÚes Ó se rapprocher des encadrants dÚsignÚs lors de la sÚance de lancement.  
+Bonne chance Ó toutes les Úquipes ! Soyez crÚatifs, ambitieux et, surtout, livrez un MVP dont 
+vous serez fiers.  

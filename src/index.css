@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50:  #f5f3fa;
+  --color-primary-100: #eae4f4;
+  --color-primary-200: #d1c3e6;
+  --color-primary-300: #b09cd4;
+  --color-primary-400: #9170c0;
+  --color-primary-500: #7445a9;
+  --color-primary-600: #5b3085; /* Deep purple reference */
+  --color-primary-700: #492869;
+  --color-primary-800: #3c2454;
+  --color-primary-900: #332045;
+  --color-primary-950: #201031;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased h-screen overflow-hidden;
+  }
+}
